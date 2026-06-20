@@ -1,0 +1,7 @@
+KOMUT SİSTEMİNE YAZILACAKLAR
+pip install numpy
+pip install pandas
+pip install image
+pip install pickle
+pip install PyQt5
+pip install -U scikit-learn
