@@ -1,12 +1,12 @@
 import os
 import sys
+import PyQt5
 
-# BAŞLANGIÇ: Qt Hata Çözümü İçin Bu Bloğu Ekle
-python_path = os.path.dirname(sys.executable)
-plugins_path = os.path.join(python_path, "Lib", "site-packages", "PyQt5", "Qt5", "plugins")
-if os.path.exists(plugins_path):
-    os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = plugins_path
+# BAŞLANGIÇ: Daha Güvenli Qt Hata Çözümü
+plugin_path = os.path.join(os.path.dirname(PyQt5.__file__), "Qt5", "plugins")
+os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = plugin_path
 # BİTİŞ
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 import numpy as np
 from PIL import Image, ImageOps
