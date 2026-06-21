@@ -1,5 +1,9 @@
 # ✍️ İki Basamaklı El Yazısı Rakam Tanıma (Gradio & SVM)
 
+> 🚀 **Canlı Demo:** [Uygulamayı Hugging Face Üzerinde Hemen Deneyin](https://huggingface.co/spaces/rdvnkepkin/el-yazisi-tanima)
+
+<img width="900" height="398" alt="ekran_goruntusu" src="https://github.com/user-attachments/assets/b4f8ded4-e42f-4ef9-a359-914db21a084d" />
+
 Bu proje, makine öğrenmesi algoritmalarının kullanıcı dostu bir web arayüzü ile nasıl entegre edilebileceğini gösteren uçtan uca (end-to-end) bir analitik çözüm uygulamasıdır. Kullanıcıların çizdiği rakamları eşzamanlı olarak işleyip analiz eden çift panelli bir mimariye sahiptir.
 
 ## 🧠 Mimari ve Matematiksel Yaklaşım
@@ -23,4 +27,3 @@ Sistem, gerçek dünya senaryolarında sıklıkla karşılaşılan **"Kayıp Ver
 1. Repoyu klonlayın: `git clone https://github.com/rdvnkepkin/mnist-svm-drawing-app.git`
 2. Gereksinimleri yükleyin: `pip install -r requirements.txt`
 3. Uygulamayı başlatın: `python app.py`
-<img width="900" height="398" alt="ekran_goruntusu" src="https://github.com/user-attachments/assets/b4f8ded4-e42f-4ef9-a359-914db21a084d" />
