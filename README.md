@@ -14,7 +14,7 @@ Geleneksel MNIST el yazısı rakam veri seti kullanılarak, 28x28 piksellik (784
 Projeyi lokalinizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Repoyu klonlayın: 
-`git clone https://github.com/[KULLANICI_ADIN]/[REPO_ADIN].git`
+`git clone https://github.com/[rdvnkepkin]/[REPO_ADIN].git`
 
 2. Gerekli kütüphaneleri yükleyin: 
 `pip install -r requirements.txt`
