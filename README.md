@@ -23,5 +23,4 @@ Sistem, gerçek dünya senaryolarında sıklıkla karşılaşılan **"Kayıp Ver
 1. Repoyu klonlayın: `git clone https://github.com/rdvnkepkin/mnist-svm-drawing-app.git`
 2. Gereksinimleri yükleyin: `pip install -r requirements.txt`
 3. Uygulamayı başlatın: `python app.py`
-![Proje Ekran Görüntüsü](<img width="1767" height="782" alt="ekran_goruntusu" src="https://github.com/user-attachments/assets/b4f8ded4-e42f-4ef9-a359-914db21a084d" />
-)
+(<img width="1767" height="782" alt="ekran_goruntusu" src="https://github.com/user-attachments/assets/b4f8ded4-e42f-4ef9-a359-914db21a084d" />)
